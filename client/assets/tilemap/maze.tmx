@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.3.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="28" height="36" tilewidth="8" tileheight="8" infinite="0" nextlayerid="7" nextobjectid="22">
+ <editorsettings>
+  <export target="maze.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="maze" tilewidth="8" tileheight="8" spacing="1" tilecount="48" columns="16">
+  <image source="maze.png" width="143" height="26"/>
+  <tile id="0">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="20">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="21">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="22">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="23">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="24">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="25">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="26">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="27">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="28">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="30">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="31">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="32">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="36">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="37">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="38">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="39">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="40">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="41">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="42">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="false"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="43">
+   <properties>
+    <property name="bottomLeft" type="bool" value="false"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="true"/>
+    <property name="topRight" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="45">
+   <properties>
+    <property name="edible" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="46">
+   <properties>
+    <property name="bottomLeft" type="bool" value="true"/>
+    <property name="bottomRight" type="bool" value="true"/>
+    <property name="collides" type="bool" value="true"/>
+    <property name="topLeft" type="bool" value="false"/>
+    <property name="topRight" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="47">
+   <properties>
+    <property name="edible" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="maze" width="28" height="36">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAACwAAAArAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAAAQAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAaAAAAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAACgAAAAQAAAAEAAAACcAAAAAAAAAKAAAABAAAAAQAAAAEAAAACcAAAAAAAAAGgAAABkAAAAAAAAAKAAAABAAAAAQAAAAEAAAACcAAAAAAAAAKAAAABAAAAAQAAAAJwAAAAAAAAADAAAABAAAAAAAAAAaAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAZAAAAAAAAABoAAAAAAAAAAAAAAAAAAAAZAAAAAAAAABoAAAAAAAAAAAAAABkAAAAAAAAAAwAAAAQAAAAAAAAAKgAAABYAAAAWAAAAKQAAAAAAAAAqAAAAFgAAABYAAAAWAAAAKQAAAAAAAAAcAAAAGwAAAAAAAAAqAAAAFgAAABYAAAAWAAAAKQAAAAAAAAAqAAAAFgAAABYAAAApAAAAAAAAAAMAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAABAAAAAAAAAAoAAAAEAAAABAAAAAnAAAAAAAAACgAAAAnAAAAAAAAACgAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAnAAAAAAAAACgAAAAnAAAAAAAAACgAAAAQAAAAEAAAACcAAAAAAAAAAwAAAAQAAAAAAAAAKgAAABYAAAAWAAAAKQAAAAAAAAAaAAAAGQAAAAAAAAAqAAAAFgAAABYAAAAkAAAAIwAAABYAAAAWAAAAKQAAAAAAAAAaAAAAGQAAAAAAAAAqAAAAFgAAABYAAAApAAAAAAAAAAMAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAABgAAAA0AAAANAAAADQAAAA0AAAAXAAAAAAAAABoAAAAlAAAAEAAAABAAAAAnAAAAAAAAABoAAAAZAAAAAAAAACgAAAAQAAAAEAAAACYAAAAZAAAAAAAAABgAAAANAAAADQAAAA0AAAANAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAaAAAAIwAAABYAAAAWAAAAKQAAAAAAAAAqAAAAKQAAAAAAAAAqAAAAFgAAABYAAAAkAAAAGQAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAABoAAAAZAAAAAAAAAB4AAAANAAAAIgAAAC8AAAAvAAAAIQAAAA0AAAAdAAAAAAAAABoAAAAZAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAALAAAACwAAAAsAAAALAAAAGwAAAAAAAAAqAAAAKQAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAqAAAAKQAAAAAAAAAcAAAACwAAAAsAAAALAAAACwAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAA0AAAANAAAADQAAAA0AAAAXAAAAAAAAACgAAAAnAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAACgAAAAnAAAAAAAAABgAAAANAAAADQAAAA0AAAANAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAaAAAAGQAAAAAAAAAgAAAACwAAAAsAAAALAAAACwAAAAsAAAALAAAAHwAAAAAAAAAaAAAAGQAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAABoAAAAZAAAAAAAAACgAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAnAAAAAAAAABoAAAAZAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAALAAAACwAAAAsAAAALAAAAGwAAAAAAAAAqAAAAKQAAAAAAAAAqAAAAFgAAABYAAAAkAAAAIwAAABYAAAAWAAAAKQAAAAAAAAAqAAAAKQAAAAAAAAAcAAAACwAAAAsAAAALAAAACwAAAAEAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAABAAAAAAAAAAoAAAAEAAAABAAAAAnAAAAAAAAACgAAAAQAAAAEAAAABAAAAAnAAAAAAAAABoAAAAZAAAAAAAAACgAAAAQAAAAEAAAABAAAAAnAAAAAAAAACgAAAAQAAAAEAAAACcAAAAAAAAAAwAAAAQAAAAAAAAAKgAAABYAAAAkAAAAGQAAAAAAAAAqAAAAFgAAABYAAAAWAAAAKQAAAAAAAAAqAAAAKQAAAAAAAAAqAAAAFgAAABYAAAAWAAAAKQAAAAAAAAAaAAAAIwAAABYAAAApAAAAAAAAAAMAAAAEAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAADAAAACAAAAA8AAAAXAAAAAAAAABoAAAAZAAAAAAAAACgAAAAnAAAAAAAAACgAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAnAAAAAAAAACgAAAAnAAAAAAAAABoAAAAZAAAAAAAAABgAAAAPAAAABwAAAAoAAAAVAAAAGwAAAAAAAAAqAAAAKQAAAAAAAAAaAAAAGQAAAAAAAAAqAAAAFgAAABYAAAAkAAAAIwAAABYAAAAWAAAAKQAAAAAAAAAaAAAAGQAAAAAAAAAqAAAAKQAAAAAAAAAcAAAAFQAAAAkAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAGgAAABkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAABAAAAAAAAAAoAAAAEAAAABAAAAAQAAAAEAAAACYAAAAlAAAAEAAAABAAAAAnAAAAAAAAABoAAAAZAAAAAAAAACgAAAAQAAAAEAAAACYAAAAlAAAAEAAAABAAAAAQAAAAEAAAACcAAAAAAAAAAwAAAAQAAAAAAAAAKgAAABYAAAAWAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAKQAAAAAAAAAqAAAAKQAAAAAAAAAqAAAAFgAAABYAAAAWAAAAFgAAABYAAAAWAAAAFgAAABYAAAApAAAAAAAAAAMAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAABgAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAADQAAAA0AAAANAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer id="3" name="pellets" width="28" height="36">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAAAAAAAAAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAAMAAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAADAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAAAAAAAAAAAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALgAAAAAAAAAAAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAuAAAALgAAAC4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <objectgroup id="4" name="entities">
+  <object id="4" name="pacman" x="108" y="208" width="8" height="8"/>
+  <object id="5" name="inky" type="ghost" x="92" y="136" width="8" height="8">
+   <properties>
+    <property name="homeX" type="int" value="0"/>
+    <property name="homeY" type="int" value="35"/>
+   </properties>
+  </object>
+  <object id="6" name="clyde" type="ghost" x="124" y="136" width="8" height="8">
+   <properties>
+    <property name="homeX" type="int" value="27"/>
+    <property name="homeY" type="int" value="35"/>
+   </properties>
+  </object>
+  <object id="7" name="pinky" type="ghost" x="108" y="136" width="8" height="8">
+   <properties>
+    <property name="homeX" type="int" value="2"/>
+    <property name="homeY" type="int" value="0"/>
+   </properties>
+  </object>
+  <object id="8" name="blinky" type="ghost" x="108" y="112" width="8" height="8">
+   <properties>
+    <property name="homeX" type="int" value="25"/>
+    <property name="homeY" type="int" value="0"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

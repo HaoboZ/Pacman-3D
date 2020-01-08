@@ -1,4 +1,3 @@
-import * as THREE from 'three';
 import { PointerLockControls } from 'three/examples/jsm/controls/PointerLockControls';
 
 
@@ -13,7 +12,7 @@ export default class Controls extends PointerLockControls {
 		down:     false
 	};
 	
-	speed = .1;
+	speed = 1;
 	
 	constructor( camera: THREE.Camera, domElement?: HTMLElement ) {
 		super( camera, domElement );

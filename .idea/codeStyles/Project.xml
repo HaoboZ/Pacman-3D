@@ -61,59 +61,11 @@
       <option name="SPACES_WITHIN_IMPORTS" value="true" />
       <option name="IMPORT_SORT_MODULE_NAME" value="true" />
     </TypeScriptCodeStyleSettings>
-    <codeStyleSettings language="CSS">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="3" />
-        <option name="CONTINUATION_INDENT_SIZE" value="3" />
-        <option name="TAB_SIZE" value="3" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="CoffeeScript">
-      <indentOptions>
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="GSP">
-      <indentOptions>
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="HTML">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="3" />
-        <option name="CONTINUATION_INDENT_SIZE" value="3" />
-        <option name="TAB_SIZE" value="3" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
     <codeStyleSettings language="JSON">
       <indentOptions>
         <option name="INDENT_SIZE" value="3" />
         <option name="CONTINUATION_INDENT_SIZE" value="3" />
         <option name="TAB_SIZE" value="3" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="JSP">
-      <indentOptions>
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="JSPX">
-      <indentOptions>
         <option name="USE_TAB_CHARACTER" value="true" />
         <option name="SMART_TABS" value="true" />
         <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
@@ -140,57 +92,7 @@
         <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
       </indentOptions>
     </codeStyleSettings>
-    <codeStyleSettings language="LESS">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="3" />
-        <option name="CONTINUATION_INDENT_SIZE" value="3" />
-        <option name="TAB_SIZE" value="3" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="Python">
-      <indentOptions>
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="SASS">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="3" />
-        <option name="CONTINUATION_INDENT_SIZE" value="3" />
-        <option name="TAB_SIZE" value="3" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="SCSS">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="3" />
-        <option name="CONTINUATION_INDENT_SIZE" value="3" />
-        <option name="TAB_SIZE" value="3" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
     <codeStyleSettings language="SQL">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="3" />
-        <option name="CONTINUATION_INDENT_SIZE" value="3" />
-        <option name="TAB_SIZE" value="3" />
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="Shell Script">
-      <indentOptions>
-        <option name="USE_TAB_CHARACTER" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="Stylus">
       <indentOptions>
         <option name="INDENT_SIZE" value="3" />
         <option name="CONTINUATION_INDENT_SIZE" value="3" />
@@ -217,22 +119,6 @@
         <option name="CONTINUATION_INDENT_SIZE" value="3" />
         <option name="TAB_SIZE" value="3" />
         <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="VTL">
-      <indentOptions>
-        <option name="USE_TAB_CHARACTER" value="true" />
-        <option name="SMART_TABS" value="true" />
-        <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
-      </indentOptions>
-    </codeStyleSettings>
-    <codeStyleSettings language="go">
-      <indentOptions>
-        <option name="INDENT_SIZE" value="3" />
-        <option name="CONTINUATION_INDENT_SIZE" value="3" />
-        <option name="TAB_SIZE" value="3" />
         <option name="SMART_TABS" value="true" />
         <option name="KEEP_INDENTS_ON_EMPTY_LINES" value="true" />
       </indentOptions>
