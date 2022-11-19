@@ -34,7 +34,7 @@
 		"style-loader": "^1.0.0",
 		"ts-node-dev": "^1.0.0-pre.44",
 		"webpack": "^4.41.2",
-		"webpack-cli": "^3.3.10",
+		"webpack-cli": "^3.3.12",
 		"webpack-dev-middleware": "^3.7.2"
 	}
 }
