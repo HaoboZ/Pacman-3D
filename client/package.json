@@ -1,6 +1,6 @@
 {
 	"dependencies": {
-		"phaser": "^3.21.0",
+		"phaser": "^3.55.2",
 		"typescript": "^3.7.3",
 		"three": "^0.111.0"
 	}
